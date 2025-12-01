@@ -20,7 +20,7 @@ spec:
       serviceAccountName: ingress-manager
       containers:
         - name: bunath-tester-88594ebc
-          image: docker.io/phengbunath/bunath-tester-88594ebc:2
+          image: docker.io/phengbunath/bunath-tester-88594ebc:4
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
